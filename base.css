@@ -1,0 +1,220 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: black;
+    padding: 10px 20px 0px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.header {
+    background-color: red;
+    min-height: 256px;
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+.content3 h1, h5 {
+    text-align: center;
+}
+
+.tabela {
+    text-align: center;
+}
+
+.tabela table {
+    margin: 0 auto; 
+    width: 80%; 
+    background-color: #fff;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela th {
+    background-color: black;
+    color: white;
+}
+
+.contatotitulo h1{
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    background: white;
+    border-radius: 8px;
+}
+
+
+.contato table {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.contato th,
+.contato td {
+    width: 200px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.formulario h1 {
+    text-align: center;
+    margin-bottom: 20xp;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.formulario form {
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 1px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+
+.formulario button {
+    width: 100%;
+    padding: 9px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.formulario button:hover {
+    background-color: #ddd;
+}
+
+
+.endereço {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 1px;
+    padding: 10px;
+    border: none;
+}
+
+.preformulario {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 1px;
+    padding: 10px;
+    border: none;
+}
+
+.iframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+.inflame iframe {
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.footer {
+    background-color: red;
+    min-height: 150px;
+    color: black;
+    align-items: flex-end;
+}
+
+.footer h4 {
+    text-align: center;
+}
